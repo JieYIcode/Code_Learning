@@ -1,0 +1,40 @@
+/* 设置顶部标题区域的背景颜色为黑色 */
+#titlearea {
+    background-color: #749da1;  /* 设置背景颜色 */
+    color: #ffffff;             /* 设置文本颜色为白色 */
+    padding: 10px;              /* 增加一些内边距 */
+}
+
+/* 设置项目名称的样式 */
+#projectname {
+    color: #ffffff;             /* 设置项目名称文字颜色为白色 */
+    font-size: 26px;            /* 设置字体大小 */
+    font-weight: bold;          /* 加粗字体 */
+}
+
+/* 设置项目简要描述的样式 */
+#projectbrief {
+    color: #ffffff;             /* 设置简要描述文字颜色为白色 */
+}
+/* 设置标题栏 LOGO 的大小 */
+#projectlogo img {
+    height: 50px;        /* 设置 LOGO 图像的高度，例如 40px */
+    width: auto;         /* 宽度自动调整，保持图像比例 */
+    max-height: 50px;    /* 可选：设置 LOGO 的最大高度，防止变形 */
+    max-width: 100px;    /* 可选：设置 LOGO 的最大宽度，防止变形 */
+    padding: 5px;        /* 添加内边距，可以增加 LOGO 和其他元素的间距 */
+    margin-right: 10px;  /* LOGO 与项目标题之间的距离 */
+    vertical-align: middle;  /* 垂直居中对齐 */
+}
+/* 调整 LOGO 图标与项目标题之间的距离 */
+#projectalign {
+    padding-left: 10px;  /* LOGO 和项目名称之间的间距 */
+}
+
+/* 调整整个标题栏的高度（可选） */
+#titlearea {
+    height: 50px;       /* 标题栏整体高度（根据 LOGO 的大小调整） */
+}
+
+
+
